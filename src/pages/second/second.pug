@@ -1,0 +1,9 @@
+extends ../../layout
+
+block title
+	title Second
+
+block content
+	- var styles = require('./second.css');
+
+	section(class=styles.Content) Second Page

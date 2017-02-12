@@ -1,0 +1,10 @@
+extends ../layout
+
+block title
+	title Main
+
+block content
+	- var styles = require('./main.css');
+
+	section(class=styles.Content)
+		include helloworld
